@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Cinema Finais Felizes</string>
+    <string name="MovieTheater">MovieTheater</string>
+    <string name="cinema_seat">cinema_seat</string>
+    <string name="movie">Movie</string>
+    <string name="movietheater">MovieTheater</string>
+    <string name="Assentos">Assentos</string>
+    <string name="sessoes">Sessões</string>
+    <string name="Filmes">Filmes</string>
+    <string name="hello_blank_fragment">hello_blank_fragment</string>
+    <string name="manager_movies">Gerenciar filmes</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="listar_filmes">Listar Filmes</string>
+</resources>
