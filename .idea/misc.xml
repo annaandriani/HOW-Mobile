@@ -7,6 +7,8 @@
         <entry key="app/src/main/res/layout/fragment_blank.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_list_1.xml" value="0.16590678824721378" />
         <entry key="app/src/main/res/layout/menu.xml" value="0.16590678824721378" />
+        <entry key="app/src/main/res/layout/movie_fragment_adicionar.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/movie_fragment_edit.xml" value="0.25" />
         <entry key="app/src/main/res/layout/movie_fragment_listar.xml" value="0.33" />
         <entry key="app/src/main/res/layout/movie_fragment_main.xml" value="0.1" />
         <entry key="app/src/main/res/menu/menu.xml" value="0.18177083333333333" />

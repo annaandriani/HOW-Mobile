@@ -11,4 +11,11 @@
     <string name="manager_movies">Gerenciar filmes</string>
     <string name="adicionar">Adicionar</string>
     <string name="listar_filmes">Listar Filmes</string>
+    <string name="Edit_movie">Editar FIlme</string>
+    <string name="category">Categoria</string>
+    <string name="session">Sessão</string>
+    <string name="name">Nome do Filme</string>
+    <string name="add_movie"></string>
+    <string name="Salvar">Salvar</string>
+    <string name="list_movies">Listar Filmes</string>
 </resources>

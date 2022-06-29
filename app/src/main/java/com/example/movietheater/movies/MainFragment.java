@@ -8,6 +8,7 @@ import androidx.fragment.app.ListFragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 import com.example.movietheater.R;
 
@@ -29,12 +30,28 @@ public class MainFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        View v = inflater.inflate(R.layout.movie_fragment_main, container, false);
 
-        if(savedInstanceState == null){
-            getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frame_movies, new ListFragment()).commit();
+
+        if (savedInstanceState == null) {
+            getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frame_movies, new ListaFragment()).commit();
         }
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.movie_fragment_main, container, false);
-    }
+        Button btnAdicionar = v.findViewById(R.id.button_add_movies);
+        btnAdicionar.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frame_movies, new AdicionarFragment()).commit();
+            }
+        });
+        Button btnListar = v.findViewById(R.id.button_list_movies);
+        btnListar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frame_movies, new ListaFragment()).commit();
+            }
+        });
 
+        // Inflate the layout for this fragment
+        return v;
+    }
 }
