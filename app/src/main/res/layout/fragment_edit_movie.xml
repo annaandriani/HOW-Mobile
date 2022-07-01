@@ -3,26 +3,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".movies.AdicionarFragment">
+    android:layout_gravity="center"
+    tools:context=".movies.EditFragment">
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical">
 
             <TextView
                 android:id="@+id/text_edit_movie"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:padding="10dp"
-                android:textAlignment="center"
-                android:text="@string/add_movie" />
+                android:text="@string/Edit_movie" />
 
             <TextView
                 android:id="@+id/text_view_movie"
@@ -38,7 +38,6 @@
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:text="Name" />
-
             <TextView
                 android:id="@+id/movie2"
                 android:layout_width="match_parent"
@@ -69,11 +68,28 @@
                 android:inputType="textPersonName"
                 android:text="sessao" />
 
-            <Button
-                android:id="@+id/button_add_movie"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/Salvar" />
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button_delede_movie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginRight="5dp"
+                    android:text="Excluir" />
+
+                <Button
+                    android:id="@+id/edit_movie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp"
+                    android:text="Editar" />
+
+            </LinearLayout>
         </LinearLayout>
     </ScrollView>
 

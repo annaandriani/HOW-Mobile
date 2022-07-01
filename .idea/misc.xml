@@ -5,12 +5,25 @@
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_blank.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_edit_movie.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_edit_poltrona.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_l_istar_cliente.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_list_1.xml" value="0.16590678824721378" />
+        <entry key="app/src/main/res/layout/fragment_list_poltrona.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/fragment_listar_cliente.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_listar_movie.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/fragment_movie_adicionar.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_movie_main.xml" value="0.20520833333333333" />
+        <entry key="app/src/main/res/layout/fragment_poltrona.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_poltrona_adicionar.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_sala.xml" value="0.20520833333333333" />
         <entry key="app/src/main/res/layout/menu.xml" value="0.16590678824721378" />
         <entry key="app/src/main/res/layout/movie_fragment_adicionar.xml" value="0.1" />
         <entry key="app/src/main/res/layout/movie_fragment_edit.xml" value="0.25" />
         <entry key="app/src/main/res/layout/movie_fragment_listar.xml" value="0.33" />
         <entry key="app/src/main/res/layout/movie_fragment_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/poltrona_item_list_view.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/poltrona_item_list_view1.xml" value="0.1" />
         <entry key="app/src/main/res/menu/menu.xml" value="0.18177083333333333" />
       </map>
     </option>

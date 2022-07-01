@@ -3,7 +3,6 @@ package com.example.movietheater.movies;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.ListFragment;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -30,7 +29,7 @@ public class MainFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.movie_fragment_main, container, false);
+        View v = inflater.inflate(R.layout.fragment_movie_main, container, false);
 
 
         if (savedInstanceState == null) {

@@ -18,4 +18,11 @@
     <string name="add_movie"></string>
     <string name="Salvar">Salvar</string>
     <string name="list_movies">Listar Filmes</string>
+    <string name="lista_poltrona">Poltrona disponível</string>
+    <string name="listar_poltrona">listar poltrona</string>
+    <string name="gerenciar_poltronas">gerenciar poltronas</string>
+    <string name="disponivel">Disponível</string>
+    <string name="excluir">Excluir</string>
+    <string name="Editar">Editar</string>
+    <string name="excluir_poltrona">Você deseja excluir a locação dessa poltrona?</string>
 </resources>
