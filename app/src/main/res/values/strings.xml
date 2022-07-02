@@ -25,4 +25,10 @@
     <string name="excluir">Excluir</string>
     <string name="Editar">Editar</string>
     <string name="excluir_poltrona">Você deseja excluir a locação dessa poltrona?</string>
+    <string name="Edit_client">Editar Cliente</string>
+    <string name="name_client">NOme do cliente</string>
+    <string name="age_client">Idade do cliente</string>
+    <string name="id_poltrona">Poltrona do cliente</string>
+    <string name="listar_cliente">Listar clientes</string>
+    <string name="adicionar_cliente">Adicionar cliente</string>
 </resources>

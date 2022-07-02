@@ -4,6 +4,9 @@
         android:id="@+id/menu_movie_theater"
         android:title="@string/sessoes" />
     <item
+        android:id="@+id/menuClient"
+        android:title="Cliente"/>
+    <item
         android:id="@+id/menuSeat"
         android:title="@string/Assentos"/>
     <item

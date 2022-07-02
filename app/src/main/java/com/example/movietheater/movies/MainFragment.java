@@ -42,7 +42,7 @@ public class MainFragment extends Fragment {
                 getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frame_movies, new AdicionarFragment()).commit();
             }
         });
-        Button btnListar = v.findViewById(R.id.button_list_movies);
+        Button btnListar = v.findViewById(R.id.button_add_movies);
         btnListar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

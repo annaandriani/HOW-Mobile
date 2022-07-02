@@ -1,22 +1,23 @@
 package com.example.movietheater.poltrona;
 
 public class Poltrona {
-    private String disponivel;
-    private int id;
+
+    private String Disponivel;
+    private int _id;
 
 
     public int getId() {
-        return id;
+        return _id;
     }
     public void setId(int id) {
-        this.id = id;
+        this._id = id;
     }
 
     public String getDisponivel() {
-        return disponivel;
+        return Disponivel;
     }
     public void setDisponivel(String disponivel) {
-        this.disponivel = disponivel;
+        this.Disponivel = disponivel;
     }
 
 

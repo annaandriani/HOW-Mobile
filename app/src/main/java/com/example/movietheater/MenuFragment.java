@@ -12,13 +12,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-
 public class MenuFragment extends Fragment {
 
-    public MenuFragment() {
-        // Required empty public constructor
-    }
-
+    public MenuFragment() { }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -30,7 +26,7 @@ public class MenuFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_blank, container, false);
+        return inflater.inflate(R.layout.fragment_menu, container, false);
     }
 
     @Override
@@ -39,18 +35,17 @@ public class MenuFragment extends Fragment {
     }
 
     @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
+    public boolean onOptionsItemSelected (MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.menu_movie_theater:
-                Toast.makeText(getActivity(), "Menu Movie Theater", Toast.LENGTH_LONG).show();
-                break;
             case R.id.menuSeat:
-                Toast.makeText(getActivity(), "Menu assents", Toast.LENGTH_LONG).show();
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frame_main, new com.example.movietheater.client.MainClientFragment()).commit();
                 break;
             case R.id.menuMovie:
-                Toast.makeText(getActivity(), "Menu Movie", Toast.LENGTH_LONG).show();
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frame_main, new com.example.movietheater.poltrona.PoltronaMainFragment()).commit();
                 break;
-
+            case R.id.menuClient:
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frame_main, new com.example.movietheater.movies.MainFragment()).commit();
+                break;
         }
         return super.onOptionsItemSelected(item);
     }
